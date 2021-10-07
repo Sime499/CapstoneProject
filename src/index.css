@@ -70,11 +70,11 @@ h2 {
 /*header*/
 
 header a {
-  color: black;
+  color: rgb(39, 3, 3);
   padding: 16px;
 }
 a.brand {
-  color: black;
+  color: rgb(51, 6, 6);
   font-weight: bold;
   font-size: 48px;
 }
@@ -100,7 +100,7 @@ img.medium {
 }
 .card {
   border: 0.1red #c0c0c0 solid;
-  background-color: #6f4e37;
+  background-color: #f8f6f5;
   border-radius: 0.5rem;
   margin: 1rem;
 }
@@ -123,4 +123,8 @@ img.medium {
 .rating span {
   color: #f0c040;
   margin: 0.1rem;
+}
+
+.rating span:last-of-type {
+  color: black;
 }
