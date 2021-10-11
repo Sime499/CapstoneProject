@@ -18,8 +18,7 @@ const data = {
   ],
   products: [
     {
-      _id: "1",
-      name: "rosted Eth",
+      name: "rosted Eth1",
       category: "Arabica",
       image: "/image/P1.jpg",
       price: 43,
@@ -29,8 +28,7 @@ const data = {
     },
 
     {
-      _id: "2",
-      name: "rosted Eth",
+      name: "rosted Eth2",
       category: "Excelsa",
       image: "/image/P2.jpeg",
       price: 31,
@@ -40,8 +38,7 @@ const data = {
     },
 
     {
-      _id: "3",
-      name: "rosted Eth",
+      name: "rosted Eth3",
       category: "Robusta",
       image: "/image/P3.png",
       price: 48,
