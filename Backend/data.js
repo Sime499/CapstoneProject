@@ -49,6 +49,17 @@ const data = {
       numReviews: 15,
       description: "organic Coffee",
     },
+    
+    {
+      name: "Deathwish",
+      category: "Strong",
+      image: "/image/P4.png",
+      price: 6,
+      CountInStock: 3,
+      rating: 4.5,
+      numReviews: 15,
+      description: "Extreme Coffee",
+    },
   ],
 };
 
