@@ -2,12 +2,12 @@ import mongoose from 'mongoose';
 
 const orderSchema = new mongoose.Schema(
   {
-    user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
-    seller: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'User',
-      required: true,
-    },
+    // user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+    // seller: {
+    //   type: mongoose.Schema.Types.ObjectId,
+    //   ref: 'User',
+    //   required: true,
+    // },
     orderItems: [
       {
         name: { type: String, required: true },
@@ -26,7 +26,7 @@ const orderSchema = new mongoose.Schema(
       address: { type: String, required: true },
       city: { type: String, required: true },
       postalCode: { type: String, required: true },
-      country: { type: String, required: true },
+      state: { type: String, required: true },
       lat: Number,
       lng: Number,
     },
