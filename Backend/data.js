@@ -18,36 +18,36 @@ const data = {
   ],
   products: [
     {
-      name: "rosted Eth1",
-      category: "Arabica",
+      name: "Roaosted Ethiopia Light",
+      category:"Arabica",
       image: "/image/P1.jpg",
       price: 3,
       countInStock: 25,
       rating: 4.5,
       numReviews: 24,
-      description: "organic Coffee",
+      description: "Organic Coffee",
     },
 
     {
-      name: "rosted Eth2",
+      name: "Roasted Ethiopia Mild",
       category: "Excelsa",
       image: "/image/P2.jpeg",
       price: 31,
       countInStock: 25,
       rating: 4.5,
       numReviews: 10,
-      description: "organic Coffee",
+      description: "Organic Coffee",
     },
 
     {
-      name: "rosted Eth3",
+      name: "Roasted Ethiopia Dark",
       category: "Robusta",
       image: "/image/P3.png",
       price: 48,
       countInStock: 25,
       rating: 4.5,
       numReviews: 15,
-      description: "organic Coffee",
+      description: "Organic Coffee",
     },
     
     {
@@ -74,17 +74,6 @@ const data = {
 
     {
       name: "Deathwish3",
-      category: "Strong",
-      image: "/image/P2.jpeg",
-      price: 6,
-      countInStock: 3,
-      rating: 4.5,
-      numReviews: 15,
-      description: "Extreme Coffee",
-    },
-
-    {
-      name: "Deathwish",
       category: "Strong",
       image: "/image/P2.jpeg",
       price: 6,
