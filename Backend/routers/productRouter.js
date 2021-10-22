@@ -22,6 +22,7 @@ productRouter.get(
     res.send({ createdProducts });
   })
 );
+ 
 
 productRouter.get(
   '/:id',
