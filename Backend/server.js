@@ -1,11 +1,11 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import productRouter from './Backend/routers/productRouter.js';
-import userRouter from './Backend/routers/userRouter.js';
+import productRouter from './routers/productRouter.js';
+import userRouter from './routers/userRouter.js';
 import dotenv from 'dotenv';
 import path from 'path';
-import uploadRouter from './Backend/routers/uploadRouter.js';
-import orderRouter from './Backend/routers/orderRouter.js';
+import uploadRouter from './routers/uploadRouter.js';
+import orderRouter from './routers/orderRouter.js';
 
 
 dotenv.config();
