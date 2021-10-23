@@ -1,65 +1,65 @@
-import React from 'react';
+import React from "react";
 
 export default function Rating(props) {
   const { rating, numReviews } = props;
   return (
-    <div className="rating">
+    <div class="rating">
       <span>
         <i
-          className={
+          class={
             rating >= 1
-              ? 'fa fa-star'
+              ? "fa fa-star"
               : rating >= 0.5
-              ? 'fa fa-star-half-o'
-              : 'fa fa-star-o'
+              ? "fa fa-star-half-o"
+              : "fa fa-star-o"
           }
         ></i>
       </span>
       <span>
         <i
-          className={
+          class={
             rating >= 2
-              ? 'fa fa-star'
+              ? "fa fa-star"
               : rating >= 1.5
-              ? 'fa fa-star-half-o'
-              : 'fa fa-star-o'
+              ? "fa fa-star-half-o"
+              : "fa fa-star-o"
           }
         ></i>
       </span>
       <span>
         <i
-          className={
+          class={
             rating >= 3
-              ? 'fa fa-star'
+              ? "fa fa-star"
               : rating >= 2.5
-              ? 'fa fa-star-half-o'
-              : 'fa fa-star-o'
+              ? "fa fa-star-half-o"
+              : "fa fa-star-o"
           }
         ></i>
       </span>
       <span>
         <i
-          className={
+          class={
             rating >= 4
-              ? 'fa fa-star'
+              ? "fa fa-star"
               : rating >= 3.5
-              ? 'fa fa-star-half-o'
-              : 'fa fa-star-o'
+              ? "fa fa-star-half-o"
+              : "fa fa-star-o"
           }
         ></i>
       </span>
       <span>
         <i
-          className={
+          class={
             rating >= 5
-              ? 'fa fa-star'
+              ? "fa fa-star"
               : rating >= 4.5
-              ? 'fa fa-star-half-o'
-              : 'fa fa-star-o'
+              ? "fa fa-star-half-o"
+              : "fa fa-star-o"
           }
         ></i>
       </span>
-      <span>{numReviews + ' reviews'}</span>
+      <span> {numReviews + "reviews"}</span>
     </div>
   );
 }
