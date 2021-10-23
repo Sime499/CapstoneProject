@@ -17,7 +17,8 @@ productRouter.get(
 productRouter.get(
   '/seed',
   expressAsyncHandler(async (req, res) => {
-    await Product.remove({}); // comment out if product edit stops working
+    // await Product.remove({}); 
+    // comment out if product edit stops working
     const createdProducts = await Product.insertMany(data.products);
     res.send({ createdProducts });
   })
