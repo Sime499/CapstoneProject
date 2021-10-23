@@ -44,6 +44,6 @@ app.use((err, req, res, next) => {
 //   console.log(`Serve at http://localhost:${port}`);
 // });
 
-app.listen(port, () => {
-  console.log(`Server at http://localhost:${port}`);
+httpServer.listen(port, () => {
+  console.log(`Serve at http://localhost:${port}`);
 });
