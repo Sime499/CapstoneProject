@@ -3,20 +3,17 @@ html {
   box-sizing: border-box;
 }
 body {
-  margin: 0;
   font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 .container {
-  max-width: 1170px;
   margin: auto;
-  background-color: #6d1f36;
+  background-color: #6d1f36 !important;
 }
 
 .footer {
-  padding: 70px, 0;
-  background: #89764b;
-  position: static;
+  height: 300px;
+  width: 100%;
 }
 li {
   list-style: none;
@@ -25,6 +22,7 @@ li {
 .footer .row {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .footer-col {
@@ -43,7 +41,7 @@ li {
 .footer-col h4::before {
   content: "";
   position: absolute;
-  left: 0;
+  left: 10;
   bottom: -10px;
   font-weight: 500;
   height: 2px;
@@ -53,7 +51,7 @@ li {
 }
 
 .footer-col ul li:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 .footer-col ul li a {
@@ -64,11 +62,12 @@ li {
   font-weight: 300;
   color: #bbbbbb;
   display: block;
+  
 }
 
 .footer-col ul li a:hover {
   color: #ffffff;
-  padding-left: 10px;
+  
 }
 
 .footer-col .social-links a {
@@ -88,7 +87,7 @@ li {
   .footer-col {
     width: 50%;
     padding: 20%;
-    margin-bottom: 30px;
+    margin-bottom: -30px;
   }
 }
 
