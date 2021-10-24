@@ -131,6 +131,11 @@
     background-color: rgb(110, 235, 126);
     font-size: 20px;
   }
+  .RegisterBtn:hover {
+    transition: all 0.3s ease;
+    background-color: rgb(110, 235, 126);
+    font-size: 20px;
+  }
   .register {
     justify-content: center;
     align-items: center;

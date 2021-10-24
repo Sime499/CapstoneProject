@@ -45,8 +45,7 @@
 
   main {
     grid-area: main;
-    height: 68vh;
-    padding: 1rem;
+    height: 55vh;
     margin-top: 30px;
   }
 
@@ -102,6 +101,7 @@
 
   li {
     margin-top: 1rem;
+    margin-right: 1rem;
     font-size: 30px;
   }
   h1 {
@@ -147,12 +147,23 @@ margin-right: 4px;
   }
   .row.center {
     justify-content: center;
+    overflow-y: scroll;
+    height: 600px;
   }
+  ::-webkit-scrollbar {
+    display: none;
+}
   .row.top {
     align-items: flex-start;
   }
   .col-1 {
-    flex: 1 1 25rem;
+    flex: 5 1 25rem;
+    display: inline-block;
+    width: 90%;
+    margin-right: 315px;
+
+    
+    
   }
   .col-2 {
     flex: 2 1 50rem;
@@ -171,6 +182,7 @@ margin-right: 4px;
   img.small {
     max-width: 11rem;
     width: 100%;
+    margin-left: 60px;
 
   }
   img.medium {
@@ -178,12 +190,12 @@ margin-right: 4px;
     max-height: 29rem;
     width: 100%;
     text-align: center;
-    margin-left: 34px;
+    margin-left: 51px;
 
   }
   img.large {
     width: 500px !important;
-    height: 500px;
+    height: 531px;
   }
   
   /* Card */
@@ -194,20 +206,29 @@ margin-right: 4px;
     margin: 1rem;
     width: 200x;
     height: 250px;
-    
+    border: solid;
   }
 
   .card-body {
-    padding: 1rem;
+    padding: 3rem;
+    border-style: none;
+    overflow:scroll
   }
   .card-body > * {
     margin-bottom: 0.5rem;
     text-align: center;
     height: 10px;
   }
+  .productcard {
+    background-color: #7ba0be;
+    width: 500px;
+    height: 585px;
+    border-style: solid;
+    text-align: center;
+  }
   .price {
-    font-size: 2rem;
-    margin-top: 15px;
+    font-size: 3rem;
+    margin-top: 16px;
   }
   /* Rating */
   .rating span {
@@ -267,7 +288,7 @@ margin-right: 4px;
     position: absolute;
     display: none;
     right: 0;
-    min-width: 21rem;
+    min-width: 22rem;
     padding: 1rem;
     z-index: 1;
     background-color: #dadada;
@@ -406,9 +427,12 @@ h3 {
   color: #6d1f36;
   text-decoration: underline;
   text-align: center;
-  font-size: 43px;
-  -webkit-text-stroke-width: .5px;
+  font-size: 47px;
+  -webkit-text-stroke-width: .9px;
   -webkit-text-stroke-color: rgb(255, 255, 255);
+  background-color: #7ba0be4b;
+  
+  
 }
 
 .row img {
@@ -444,5 +468,18 @@ h3 {
 
 .cartBG {
   background-color: rgb(209, 205, 192);
+
+}
+
+.profile {
+  background-color: #7ba0be81;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -500px;
+  margin-left: -260px;
+  width: 500px;
+  height: 500px;
+  border-style: solid;
 
 }

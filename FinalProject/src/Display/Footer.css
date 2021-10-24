@@ -9,19 +9,27 @@ body {
 .container {
   margin: auto;
   background-color: #6d1f36 !important;
+  
 }
 
 .footer {
+  position: absolute;
   height: 300px;
   width: 100%;
+  margin-top: 600px;
 }
 li {
   list-style: none;
+  margin-right: 20px;
 }
 
 .footer .row {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
+  
+}
+.row {
   width: 100%;
 }
 
