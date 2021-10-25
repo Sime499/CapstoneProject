@@ -1,6 +1,6 @@
 
   * {
-    margin: 0;
+    margin: 10;
     font-size: 16px;
     font-family: sans-serif;
     border-radius: 4px;
@@ -46,7 +46,7 @@
 
   main {
     grid-area: main;
-    height: 55vh;
+    height: 65vh;
     margin-top: 30px;
   }
 
@@ -182,9 +182,10 @@ margin-right: 4px;
     height: 105px;
   }
   img.small {
-    max-width: 11rem;
+    max-width: 14rem;
     width: 100%;
     margin-left: 60px;
+    
 
   }
   img.medium {
@@ -208,7 +209,7 @@ margin-right: 4px;
     border-radius: 0.5rem;
     margin: 1rem;
     width: 200x;
-    height: 247px;
+    height: 280px;
     border: solid;
     
   }
@@ -221,12 +222,12 @@ margin-right: 4px;
   .card-body > * {
     margin-bottom: 0.5rem;
     text-align: center;
-    height: 6px;
+    height: 15px;
   }
   .productcard {
     background-color: #7ba0be;
     width: 500px;
-    height: 585px;
+    height: 595px;
     border-style: solid;
     text-align: center;
     margin-right: 900px !important;
@@ -425,7 +426,7 @@ h3 {
 
 .coffeelogo {
   height: 49px !important;
-  margin: auto -11px;
+  margin: auto -6px;
   margin-top: -1px;
 }
 .products {

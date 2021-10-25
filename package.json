@@ -2,7 +2,7 @@
   "name": "anjucoffee",
   "type": "module",
   "version": "1.0.0",
-  "description": "Ecommerce website like amazon",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "cd FinalProject && npm install && npm run build",
