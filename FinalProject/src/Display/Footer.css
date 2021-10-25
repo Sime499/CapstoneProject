@@ -16,7 +16,10 @@ body {
   position: absolute;
   height: 300px;
   width: 100%;
-  margin-top: 600px;
+  position:absolute;
+  bottom: -20%;
+  left: 0;
+  right: 0;
 }
 li {
   list-style: none;
@@ -103,4 +106,9 @@ li {
   .footer-col {
     width: 100%;
   }
+}
+@media screen and (max-width: 505) {
+.footer {
+height: 0px !important;  
+}
 }

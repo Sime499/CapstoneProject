@@ -5,7 +5,8 @@
     text-align: center;
 }
 .story {
-    margin: auto;
-    width: 25%;
-    
+    position: fixed;
+    left: 50%;
+    top: 500px;
+    transform: translate(-50%, -50%);
 }
