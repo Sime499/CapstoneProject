@@ -46,8 +46,8 @@ mongoose
 ## Images Used For App
 
 ## Software Engineers
-Cory
-Weldegebrile Belihu Sime
+#Cory
+#Weldegebrile Belihu Sime
 
     
 
